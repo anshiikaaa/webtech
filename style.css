@@ -1,0 +1,89 @@
+.head1{
+
+    color: skyblue;
+
+    border: 1px solid black;
+
+}
+
+.head1{
+
+    color: orange;
+
+    border: 1px solid black;
+
+}
+
+.head2{
+
+    color: blue;
+
+    border: 1px solid blue;
+
+}
+
+.para{
+
+    display: inline;
+
+}
+
+ 
+
+.list > li:hover{
+
+    /*background: red;*/
+
+    cursor: pointer;
+
+    color: red;
+
+    border-bottom: 2px solid red;
+
+    /*text-decoration: underline;*/
+
+}
+
+.list > li{
+
+    display: inline;
+
+    /*background-color: grey;*/
+
+    padding: 0px 0px 8px 0px;
+
+    margin: 0px 0px 8px 0px;
+
+    border: 2px solid black;
+
+}
+
+.box{
+
+    width:100px;
+
+    height: 100px;
+
+    background: skyblue;
+
+    position: absolute;
+
+    left: 200px;
+
+    top: 25px;
+
+}
+
+.child{
+
+    width: 20px;
+
+    height: 20px;
+
+    background: white;
+
+    position: relative;
+
+    left: 40px;
+
+}
